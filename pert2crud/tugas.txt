@@ -1,0 +1,5 @@
+Tugas nya adalah, membuat CRUD di tabel mahasiswa ini namun lebih lengkap, dengan field datanya: id, nim,nama, jenis kelamin, agama, olahraga favorit (pilihannya: sepak bola, basket, futsal, renang, badminton), upload foto profil.
+
+Silahkan dihias gunakan CSS, Jscript, bootsrap apapun, kerahkan seluruh kemampuan kalian.
+
+form inputnya: nim dan nama adalah text, jenis kelamin radio button, agama select box (combo box), olahraga fav adalah checkbox dan bisa dipilih lebih dari 1

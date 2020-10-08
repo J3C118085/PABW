@@ -1,0 +1,6 @@
+1. instalasi ci
+2. menjalankan ci
+3. konsep MVCnya baru controller sama viewnya dlu
+4. routenya -> controller -> view
+
+win scp?
