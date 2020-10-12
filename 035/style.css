@@ -1,0 +1,327 @@
+/* jumbotron */
+.jumbotron{
+    background-image: url(img/img_jumbotron.jpg);
+    background-size: cover;
+    height: 150mm;
+    margin-top: -75px;
+    text-align: center;
+}
+.jumbotron .display-4{
+    position: relative;
+    z-index: 1;
+    color: white;
+    margin-top: 50mm;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color:#124187 ;
+    opacity: 30%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* navbar */
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+.navbar-toggler-icon{
+    color: #124187;
+    height: 50px;
+}
+.btn-biru{
+    background-color:#124187 ;
+    height: 40px;
+}
+.nav-link{
+    margin-left: 30px;
+}
+
+/* info panel */
+.info-panel{
+    background-color:white;
+    text-align: center;
+    margin-top: -100px;
+}
+.info-panel h1{
+    margin-top: 50px;
+}
+.tpanelakhir{
+    margin-bottom: 50px;
+}
+
+/* info projek */
+.info-projek{
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.info-projek::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color:#124187 ;
+    opacity: 80%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+.info-projek h6{
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+.nomer{
+    align-self: center;
+    font-size: 30pt;
+    position: relative;
+    z-index: 1;
+}
+.nomer::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid white;
+    width: 20px;
+    margin:auto;
+}
+.tprojekakhir{
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+/* .garis{
+    border-bottom: 3px solid white;
+    width: 50px;
+    margin-left: 100px;
+} */
+
+.projek1{
+    background-image: url(img/img_projek1.jpg);
+    background-size: cover;
+}
+.projek2{
+    background-image: url(img/img_projek2.jpg);
+    background-size: cover;
+}
+.projek3{
+    background-image: url(img/img_projek3.jpg);
+    background-size: cover;
+}
+.projek4{
+    background-image: url(img/img_projek4.jpg);
+    background-size: cover;
+}
+.projek5{
+    background-image: url(img/img_projek5.jpg);
+    background-size: cover;
+}
+
+/* info panel ke2 */
+.info-panel2{
+    background-image: url(img/img_projek3.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.info-panel2 h1{
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+.info-panel2 h1::after{ 
+    content: '';
+    display: block;
+    border-bottom: 3px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info-panel2 p{
+    position: relative;
+    z-index: 1;
+}
+.tpanel2akhir{
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+.info-panel2::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color:black ;
+    opacity: 80%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+
+/* projek story */
+.projek-story{
+    background-color:#e4e5e4;
+    text-align: center;
+    margin-top: 100px;
+}
+.projek-story h1{
+    margin-top: -30px;
+    color: #124187;
+    text-align: left;
+}
+/* .projek-story::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/img_projek5.jpg);
+    position: absolute;
+    bottom: 0;
+    left:0;
+} */
+.projek-story img{
+    margin-top: -100px;
+    margin-left: -150px;
+    margin-bottom: 70px;
+    width: 90%;
+}
+/* panel kecil */
+.panel-kecil{
+    background-color:#1d2b4e;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -100px;
+    margin-left: 500px;
+}
+.panel-kecil p{
+    color: white;
+    padding: none;
+    text-align: left;
+    margin-top: 15px;
+}
+.panel-kecil p span{
+    margin-right: 30px;
+}
+.panel-kecil img{
+    margin-top: -30px;
+    float: right;    
+    width: 30px;
+}
+/* panel kecil 2 */
+.panel-kecil2{
+    background-color:#1d2b4e;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -40px;
+    margin-left: 500px;
+}
+.panel-kecil2 p{
+    color: white;
+    padding: none;
+    text-align: left;
+    margin-top: 15px;
+}
+.panel-kecil2 p span{
+    margin-right: 30px;
+}
+.panel-kecil2 img{
+    margin-top: -30px;
+    float: right;    
+    width: 30px;
+}
+
+/* work style */
+.work-style{
+    background-color:#e4e5e4;
+    text-align: center;
+    margin-top: 100px;
+}
+.work-style h1{
+    margin-top: -30px;
+    color: #124187;
+    text-align: left;
+}
+.work-style img{
+    margin-top: -100px;
+    margin-right: -150px;
+    margin-bottom: 70px;
+    width: 90%;
+}
+/* panel kecil */
+.panel-kecilw{
+    background-color:#1d2b4e;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -100px;
+    margin-right: 500px;
+}
+.panel-kecilw p{
+    color: white;
+    padding: none;
+    text-align: left;
+    margin-top: 15px;
+}
+.panel-kecilw p span{
+    margin-right: 30px;
+}
+.panel-kecilw img{
+    margin-top: -30px;
+    float: right;    
+    width: 30px;
+}
+
+/* interview */
+.interview{
+    background-color:#e4e5e4;
+    margin-top: 100px;
+}
+.interview h1{
+    margin-top: -40px;
+    color: #124187;
+    text-align: left;
+    font-size: 40pt;
+}
+.interview h6{
+    margin-top: 30px;
+    color: #a3a3a3;
+    text-align: left;
+}
+.interview a::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid;
+    width: 20px;
+    margin-top: 5px;
+}
+.interview img{
+    margin-top: -70px;
+    margin-left: 70px;
+    width: 350px;
+}
+.interview h5{
+    margin-top: 20px;
+    color: #124187;
+}
+/* binterview */
+.b1interview{
+    margin-right: 90px;
+    background-color:white;
+}
+.b1interview img{
+    padding-top: 35px;
+    float: right;
+    width: 50px;
+}
+.b2interview{
+    margin-left: 90px;
+    background-color:white;
+}
+.b2interview img{
+    padding-top: 35px;
+    float: right;
+    width: 50px;
+}
